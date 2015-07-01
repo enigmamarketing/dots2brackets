@@ -1,11 +1,11 @@
 # Dots 2 Brackets
-converts a dot notation object into a bracket notation. The main goal was to be able to use some vars with angular.
+converts a dot notation object into a bracket notation. The main goal was to be able to use some variables with angular.
 	
 	data.example.12345.title
 
 will be converted to
 
-	data['example']['12134']['title']
+	data['example']['12345']['title']
 
 ## Usage
 
