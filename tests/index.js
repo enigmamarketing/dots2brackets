@@ -39,6 +39,12 @@ describe('Dots 2 Brackets', function () {
 
         assert.equal(result, expected);
     });
+    it('should convert mixed notation with ints', function () {
+        var result = dots2brackets("data.example[0].title"),
+            expected = "data['example']['0']['title']";
+
+        assert.equal(result, expected);
+    });
     it('should convert double to single quotes', function () {
         var result = dots2brackets("data.example[\"12345\"].title"),
             expected = "data['example']['12345']['title']";
