@@ -1,6 +1,6 @@
 {
     "name": "dots2brackets",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "converts dot notation objects to bracket notation",
     "main": "lib/index.js",
     "scripts": {
